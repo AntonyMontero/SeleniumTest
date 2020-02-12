@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="1" verbose="0" name="DefaultTestChrome(failed)" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="platform" value="Windows"/>
+    <classes>
+      <class name="Test.FirtsTest">
+        <methods>
+          <include name="setupTest"/>
+          <include name="FirtsTestES"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test.FirtsTest -->
+    </classes>
+  </test> <!-- DefaultTestChrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

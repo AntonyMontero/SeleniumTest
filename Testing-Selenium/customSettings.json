@@ -1,0 +1,10 @@
+{
+  "defaultTestUrl": "http://www.google.com/",
+  "remoteDriverUrl": "http://10.20.9.124:4444/wd/hub",
+  "defaultWaitTime": 4000,
+  "defaultSleepTime": 1000,
+  "maxTestRetry": 1,
+  "maxParallelism": 4,
+  "defaultTimeout": 200,
+  "defaultPollingRate": 1
+}
