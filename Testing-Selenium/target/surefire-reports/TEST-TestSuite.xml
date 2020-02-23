@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="7.066" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="4.479" tests="8" errors="0" skipped="7" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
@@ -66,5 +66,38 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="FirtsTestES" classname="Test.FirtsTest" time="2.467"/>
+  <testcase name="setupTest" classname="Test.FirtsTest" time="1.172">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ANTONY&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANTONY', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver
+Caused by: java.net.NoRouteToHostException: No route to host: connect
+</failure>
+    <system-out><![CDATA[12:34:48.999 [TestNG-tests-1] INFO  base.TestBase - -----------Open Report----------------
+12:34:49.262 [TestNG-test=DefaultTestChrome-1] INFO  factory.OptionsManager - Platform name: WINDOWS
+12:34:49.262 [TestNG-test=DefaultTestChrome-1] INFO  factory.OptionsManager - Browser name: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="setupTest" classname="Test.FirtsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="FirtsTestES" classname="Test.FirtsTest" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ANTONY&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="getResult" classname="Test.FirtsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="Test.FirtsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="Test.FirtsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="Test.FirtsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="FirtsTestES23" classname="Test.FirtsTest" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ANTONY&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
 </testsuite>

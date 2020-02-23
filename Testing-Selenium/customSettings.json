@@ -1,6 +1,6 @@
 {
   "defaultTestUrl": "http://www.google.com/",
-  "remoteDriverUrl": "http://10.20.9.124:4444/wd/hub",
+  "remoteDriverUrl": "http://192.168.100.25:4444/wd/hub",
   "defaultWaitTime": 4000,
   "defaultSleepTime": 1000,
   "maxTestRetry": 1,

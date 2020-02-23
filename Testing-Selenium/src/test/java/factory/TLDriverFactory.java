@@ -9,7 +9,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public class TLDriverFactory {
-    private static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
+    protected static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
     private static SettingsManager settingsManager = new SettingsManager();
     private static Settings settings;
 

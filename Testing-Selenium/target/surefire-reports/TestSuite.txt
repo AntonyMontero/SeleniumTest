@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.066 sec - in TestSuite
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 7, Time elapsed: 4.479 sec <<< FAILURE! - in TestSuite
+setupTest(Test.FirtsTest)  Time elapsed: 1.172 sec  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANTONY', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: RemoteWebDriver
+Caused by: java.net.NoRouteToHostException: No route to host: connect
+
