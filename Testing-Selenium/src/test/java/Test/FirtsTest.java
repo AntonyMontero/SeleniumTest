@@ -36,7 +36,7 @@ public class FirtsTest extends TestBase {
         WebDriver  webDriver = TLDriverFactory.getTLDriver();
         String url = getURL("");
         webDriver.get(url);
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.name("wq")));
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.name("q")));
         webDriver.findElement(By.name("q")).sendKeys("hola hola");
 
         //this.web=webDriver;
