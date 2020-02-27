@@ -12,7 +12,7 @@ public class FirtsTest2 extends TestBase {
     @Test
     public void  FirtsTestES2(){
         runTest();
-        test=extent.createTest("FirtsTest2","PASSED TEST CASE");
+
     }
 
     private void runTest() {
@@ -22,7 +22,7 @@ public class FirtsTest2 extends TestBase {
         webDriver.get(url);
         wait.until(ExpectedConditions.presenceOfElementLocated(By.name("q")));
         webDriver.findElement(By.name("q")).sendKeys("hola hola");
-
+        test=extent.createTest("FirtsTest2","PASSED TEST CASE");
         //this.web=webDriver;
     }
 }

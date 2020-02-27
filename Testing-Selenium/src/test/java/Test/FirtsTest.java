@@ -12,12 +12,10 @@ public class FirtsTest extends TestBase {
     @Test
     public void  FirtsTestES(){
         runTest();
-        test=extent.createTest("FirtsTestES","PASSED TEST CASE");
     }
     @Test
     public void  FirtsTestES23(){
         runTest2();
-        test=extent.createTest("FirtsTestES23","PASSED TEST CASE");
     }
 
 
@@ -28,7 +26,7 @@ public class FirtsTest extends TestBase {
         webDriver.get(url);
         wait.until(ExpectedConditions.presenceOfElementLocated(By.name("q")));
         webDriver.findElement(By.name("q")).sendKeys("hola hola");
-
+        test=extent.createTest("FirtsTestES23","PASSED TEST CASE");
         //this.web=webDriver;
     }
     private void runTest2() {
@@ -38,7 +36,7 @@ public class FirtsTest extends TestBase {
         webDriver.get(url);
         wait.until(ExpectedConditions.presenceOfElementLocated(By.name("q")));
         webDriver.findElement(By.name("q")).sendKeys("hola hola");
-
+        test=extent.createTest("FirtsTestES","PASSED TEST CASE");
         //this.web=webDriver;
     }
 }
