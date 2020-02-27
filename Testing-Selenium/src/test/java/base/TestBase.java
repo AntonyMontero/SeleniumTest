@@ -42,7 +42,7 @@ public class TestBase {
         log.info("-----------Open Report----------------");
         String workingDir = System.getProperty("user.dir");
         //htmlReporter = new ExtentHtmlReporter(workingDir + "\\ExtentReports\\ExtentReportResults.html", true);
-        htmlReporter = new ExtentHtmlReporter("C:\\Users\\User\\Documents\\Reportes\\Report.html");
+        htmlReporter = new ExtentHtmlReporter("C:\\Program Files (x86)\\Jenkins\\workspace\\selenium-test2\\Report.html");
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);
         extent.setSystemInfo("Platform", platform);
